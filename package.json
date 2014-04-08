@@ -1,24 +1,7 @@
 {
-  "name": "globals",
-  "version": "0.1.0",
+  "name": "sindresorhus-globals",
   "description": "Global identifiers from different JavaScript environments",
-  "license": "MIT",
-  "main": "globals.json",
-  "repository": "sindresorhus/globals",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "http://sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=0.8.0"
-  },
-  "scripts": {
-    "test": "mocha"
-  },
-  "files": [
-    "globals.json"
-  ],
+  "version": "0.1.0",
   "keywords": [
     "globals",
     "global",
@@ -29,7 +12,9 @@
     "eslint",
     "environments"
   ],
-  "devDependencies": {
-    "mocha": "~1.x"
-  }
+  "main": "globals.json",
+  "dependencies": {
+    "sindresorhus-html-tags": "git://github.com/npmcomponent/sindresorhus-html-tags.git"
+  },
+  "license": "MIT"
 }
